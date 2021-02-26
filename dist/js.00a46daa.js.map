@@ -1,1 +1,1 @@
-{"version":3,"sources":["js/index.js"],"names":["test","name","console","log"],"mappings":"AAAA,IAAIA,IAAI,GAAG,SAAPA,IAAO,CAACC,IAAD,EAAU;AACjBC,EAAAA,OAAO,CAACC,GAAR,iBAAqBF,IAArB;AACH,CAFD;;AAIAD,IAAI,CAAC,QAAD,CAAJ","file":"js.00a46daa.js","sourceRoot":"..","sourcesContent":["let test = (name) => {\r\n    console.log(`hello ${name}`)\r\n}\r\n\r\ntest('George');"]}
+{"version":3,"sources":[],"names":[],"mappings":"","file":"js.00a46daa.js","sourceRoot":"..","sourcesContent":[]}
