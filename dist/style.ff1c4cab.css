@@ -36,7 +36,7 @@ header .brand-logo span {
 
 .contact {
   border: 4px solid black;
-  padding: 0 10px;
+  padding: 6px 13px;
   border-radius: 39px;
 }
 .contact a {
@@ -96,6 +96,78 @@ img {
   justify-content: center;
 }
 
+.work-container {
+  margin: 0 auto;
+  max-width: 1600px;
+  padding: 20px 0;
+  padding-top: 50px;
+}
+
+.left-work {
+  width: 564px;
+}
+
+.flexwork {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 0;
+  border-bottom: 1px black solid;
+}
+
+.work-buttons {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.work-buttons a {
+  background: #2f80ed;
+  padding: 13px;
+  margin-right: 10px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+}
+.work-buttons .btn-secondary {
+  background: #ed4c2f;
+}
+
+h3 {
+  color: #2f80ed;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-size: 49px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.left-work > * {
+  padding: 5px 0;
+}
+
+.workbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 169px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.workbutton i {
+  padding-left: 10px;
+}
+
+#work > div > div:nth-child(3) {
+  border-bottom: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -108,7 +180,22 @@ body {
 
 .hero {
   height: 100vh;
+  position: relative;
   width: 100%;
+}
+
+.hero:before {
+  content: "";
+  background-image: url(/greek-vase.5ee95911.png);
+  background-repeat: repeat;
+  position: absolute;
+  background-size: 550px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+  z-index: -1;
 }
 
 /*# sourceMappingURL=/style.ff1c4cab.css.map */

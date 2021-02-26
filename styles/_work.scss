@@ -1,0 +1,74 @@
+.work-container {
+    margin: 0 auto;
+    max-width: 1600px;
+    padding: 20px 0;
+    padding-top: 50px;
+}
+
+.left-work {
+    width: 564px;
+}
+
+.flexwork {
+    display: flex;
+    // align-items: center;
+    justify-content: space-around;
+    padding: 60px 0;
+    border-bottom: 1px black solid;
+}
+
+.work-buttons {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+    a {
+        background: $primaryColor;
+        padding: 13px;
+        margin-right: 10px;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 25px;
+    }
+
+    .btn-secondary {
+        background: $secondaryColor;
+    }
+}
+
+h3 {
+    color: $primaryColor;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+h2 {
+    font-size: 49px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.left-work > * {
+    padding: 5px 0;
+}
+
+.workbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 169px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.workbutton i {
+    padding-left: 10px;
+}
+
+#work > div > div:nth-child(3) {
+    border-bottom: none;
+}
