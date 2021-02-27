@@ -9,6 +9,10 @@
         font-size: 20px;
         letter-spacing: 5px;
     }
+
+    img {
+        width: 400px;
+    }
 }
 
 .left-work {
@@ -17,26 +21,26 @@
 
 .flexwork {
     display: flex;
-    // align-items: center;
     justify-content: space-around;
     padding: 60px 0;
-    // border-bottom: 1px black solid;
 }
 
 .work-buttons {
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: center;
+    // justify-content: center;
     margin-top: 30px;
 
     a {
         background: $primaryColor;
-        padding: 13px;
+        padding: 5px 2px;
         margin-right: 10px;
         color: #fff;
         text-decoration: none;
-        border-radius: 25px;
+        border-radius: 10px;
+        font-weight: 400;
+        font-size: 18px;
     }
 
     .btn-secondary {
@@ -45,11 +49,11 @@
 }
 
 h2 {
-    font-size: 49px;
+    font-size: 30px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .left-work > * {
@@ -60,13 +64,14 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 169px;
+    width: 125px;
     font-size: 26px;
     font-weight: bold;
 }
 
 .workbutton i {
     padding-left: 10px;
+    font-size: 18px;
 }
 
 #work > div > div:nth-child(3) {
@@ -74,7 +79,7 @@ p {
 }
 
 .right-work {
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .work-container hr {
@@ -87,4 +92,8 @@ p {
 
 .work {
     margin-top: 120px;
+}
+
+.right-img {
+    margin-top: 30px;
 }

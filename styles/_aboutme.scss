@@ -24,6 +24,7 @@
 
     p {
         padding: 20px 0;
+        font-size: 18px;
     }
 }
 
@@ -35,7 +36,7 @@
 
 .about-me:before {
     content: "";
-    background-image: url(/images/greek-vase.png);
+    background-image: url(/images/email-pattern.png);
     background-repeat: repeat;
     position: absolute;
     background-size: 550px;

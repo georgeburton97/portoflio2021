@@ -9,7 +9,7 @@
 
 .main {
     .container-inner {
-        margin-top: 12%;
+        margin-top: 9%;
     }
 }
 
@@ -20,7 +20,7 @@
 }
 
 img {
-    width: 496px;
+    width: 778px;
 }
 
 .main {
@@ -59,4 +59,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+i.fas:nth-child(2) {
+    display: none;
 }

@@ -1,0 +1,159 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+    // Nav and Hero
+
+    .hide-on-med-and-down {
+        display: none;
+    }
+
+    .right-img {
+        display: none;
+    }
+
+    .hero {
+        max-width: 100vw;
+
+        .container-inner {
+            max-width: 270px;
+            margin: 0 auto;
+        }
+
+        height: 85vh;
+    }
+
+    .brand-logo {
+        font-size: 25px !important;
+        text-align: center !important;
+        padding: 0 20px;
+    }
+
+    i.fas:nth-child(2) {
+        display: block;
+        font-size: 22px;
+        padding: 0 20px;
+    }
+
+    .flex {
+        padding-top: 60px !important;
+    }
+
+    .container {
+        justify-content: center;
+    }
+
+    .main {
+        .flex {
+            .flex {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+
+    .left-text {
+        h1 {
+            font-size: 50px;
+        }
+    }
+
+    .container-inner {
+        margin: 0 auto;
+        max-width: 340px;
+        padding: 0px 20px;
+
+        padding-top: 70px;
+    }
+
+    .contact-right,
+    .contact-left {
+        width: 100%;
+    }
+
+    // Work
+
+    .flexwork {
+        align-items: center;
+        flex-direction: column;
+
+        img {
+            width: 300px;
+        }
+
+        .left-work {
+            width: 300px;
+        }
+    }
+
+    // About
+    body > section.about-me > div > div > div.bottom > h3 {
+        font-size: 24px;
+    }
+
+    body > section.about-me > div > div > div.bottom > div {
+        padding-top: 30px;
+    }
+
+    body > section.about-me > div > div > div.bottom > div > img {
+        width: 70px;
+    }
+
+    // Contact
+    .contactbottom {
+        flex-direction: column;
+    }
+
+    .text-fields {
+        .text-input {
+            width: 100%;
+        }
+    }
+
+    // footer
+
+    footer {
+        .container-inner {
+            margin-top: 35px;
+        }
+    }
+
+    .icon-group {
+        margin-left: 0px;
+
+        a {
+            font-size: 15px;
+        }
+    }
+
+    body
+        > section.contact-section
+        > div
+        > div.contactbottom
+        > div.contact-left
+        > h3 {
+        font-size: 24px;
+    }
+
+    body
+        > section.contact-section
+        > div
+        > div.contactbottom
+        > div.contact-right
+        > h3 {
+        font-size: 24px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    .container-inner {
+        max-width: 550px;
+    }
+
+    .left-text {
+        padding-bottom: 60px;
+    }
+}
