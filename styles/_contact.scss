@@ -9,4 +9,93 @@
         border-bottom-left-radius: 2px;
         border-top-left-radius: 2px;
     }
+
+    p {
+        padding: 20px 0;
+    }
+
+    h3 {
+        font-size: 35px;
+        padding: 30px 0;
+    }
+
+    img {
+        width: 25px;
+    }
+}
+
+.contactbottom {
+    display: flex;
+
+    a {
+        text-decoration: none;
+        padding: 0 20px;
+        color: black;
+        font-weight: 300;
+        font-size: 20px;
+    }
+}
+
+.icon-group {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    padding-bottom: 30px;
+}
+
+.inputflex {
+    display: flex;
+}
+
+.text-fields {
+    display: grid;
+    grid-template-areas:
+        "name email"
+        "message message";
+    grid-gap: 1.2rem;
+    margin-bottom: 1.2rem;
+
+    // grid Areas
+    .name-input {
+        grid-area: name;
+    }
+    .email-input {
+        grid-area: email;
+    }
+    .message-input {
+        grid-area: message;
+        resize: none;
+        height: 200px;
+    }
+
+    .text-input {
+        padding: 0.5rem 1rem;
+        background: #333;
+        color: #fff;
+        box-shadow: none;
+        font-family: "Poppins", sans-serif;
+        border-radius: 3px;
+        border: none;
+
+        &::placeholder {
+            color: #fff;
+            font-family: "Poppins", sans-serif;
+        }
+    }
+}
+
+.btn-submit {
+    background: $secondaryColor;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.contact-right,
+.contact-left {
+    width: 50%;
 }
