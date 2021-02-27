@@ -1,0 +1,48 @@
+.about-me {
+    hr {
+        width: 100%;
+
+        border-top: 2px solid $primaryColor;
+        border-top-right-radius: 2px;
+        border-bottom: 2px solid $primaryColor;
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+        border-top-left-radius: 2px;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+
+    img {
+        width: 70px;
+    }
+}
+
+.about-text {
+    margin-top: 20px;
+
+    p {
+        padding: 20px 0;
+    }
+}
+
+.about-me {
+    // height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+.about-me:before {
+    content: "";
+    background-image: url(/images/greek-vase.png);
+    background-repeat: repeat;
+    position: absolute;
+    background-size: 550px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.6;
+    z-index: -1;
+}

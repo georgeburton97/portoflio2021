@@ -3,6 +3,12 @@
     max-width: 1600px;
     padding: 20px 0;
     padding-top: 50px;
+
+    h3 {
+        color: $primaryColor;
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
 }
 
 .left-work {
@@ -14,7 +20,7 @@
     // align-items: center;
     justify-content: space-around;
     padding: 60px 0;
-    border-bottom: 1px black solid;
+    // border-bottom: 1px black solid;
 }
 
 .work-buttons {
@@ -36,12 +42,6 @@
     .btn-secondary {
         background: $secondaryColor;
     }
-}
-
-h3 {
-    color: $primaryColor;
-    font-size: 20px;
-    letter-spacing: 5px;
 }
 
 h2 {
@@ -71,4 +71,16 @@ p {
 
 #work > div > div:nth-child(3) {
     border-bottom: none;
+}
+
+.right-work {
+    margin-top: 10px;
+}
+
+.work-container hr {
+    margin: 0 auto;
+    max-width: 80%;
+    opacity: 0.9;
+    color: #f4f4f4;
+    border: solid 2px;
 }

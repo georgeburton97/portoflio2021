@@ -48,6 +48,10 @@ header .brand-logo span {
   margin: 0 auto;
   max-width: 1300px;
   padding: 20px 0;
+  margin-top: 100px;
+}
+
+.main .container-inner {
   margin-top: 12%;
 }
 
@@ -102,6 +106,11 @@ img {
   padding: 20px 0;
   padding-top: 50px;
 }
+.work-container h3 {
+  color: #2f80ed;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
 
 .left-work {
   width: 564px;
@@ -111,7 +120,6 @@ img {
   display: flex;
   justify-content: space-around;
   padding: 60px 0;
-  border-bottom: 1px black solid;
 }
 
 .work-buttons {
@@ -131,12 +139,6 @@ img {
 }
 .work-buttons .btn-secondary {
   background: #ed4c2f;
-}
-
-h3 {
-  color: #2f80ed;
-  font-size: 20px;
-  letter-spacing: 5px;
 }
 
 h2 {
@@ -166,6 +168,70 @@ p {
 
 #work > div > div:nth-child(3) {
   border-bottom: none;
+}
+
+.right-work {
+  margin-top: 10px;
+}
+
+.work-container hr {
+  margin: 0 auto;
+  max-width: 80%;
+  opacity: 0.9;
+  color: #f4f4f4;
+  border: solid 2px;
+}
+
+.about-me hr {
+  width: 100%;
+  border-top: 2px solid #2f80ed;
+  border-top-right-radius: 2px;
+  border-bottom: 2px solid #2f80ed;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+.about-me h3 {
+  font-size: 35px;
+}
+.about-me img {
+  width: 70px;
+}
+
+.about-text {
+  margin-top: 20px;
+}
+.about-text p {
+  padding: 20px 0;
+}
+
+.about-me {
+  position: relative;
+  width: 100%;
+}
+
+.about-me:before {
+  content: "";
+  background-image: url(/greek-vase.5ee95911.png);
+  background-repeat: repeat;
+  position: absolute;
+  background-size: 550px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.contact-section hr {
+  width: 100%;
+  border-top: 2px solid #2f80ed;
+  border-top-right-radius: 2px;
+  border-bottom: 2px solid #2f80ed;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
 }
 
 * {
