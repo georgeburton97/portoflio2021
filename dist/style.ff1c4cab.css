@@ -48,7 +48,9 @@ header .brand-logo span {
   margin: 0 auto;
   max-width: 1300px;
   padding: 20px 0;
-  margin-top: 100px;
+  margin-top: 120px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .main .container-inner {
@@ -104,7 +106,7 @@ img {
   margin: 0 auto;
   max-width: 1600px;
   padding: 20px 0;
-  padding-top: 50px;
+  padding-top: 70px;
 }
 .work-container h3 {
   color: #2f80ed;
@@ -182,6 +184,10 @@ p {
   border: solid 2px;
 }
 
+.work {
+  margin-top: 120px;
+}
+
 .about-me hr {
   width: 100%;
   border-top: 2px solid #2f80ed;
@@ -246,6 +252,7 @@ p {
 
 .contactbottom {
   display: flex;
+  margin-top: 40px;
 }
 .contactbottom a {
   text-decoration: none;
@@ -311,6 +318,27 @@ p {
 .contact-right,
 .contact-left {
   width: 50%;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+}
+footer .container-inner {
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 2px 0;
+  margin-top: 120px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+}
+footer .center-align {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0;
 }
 
 * {
