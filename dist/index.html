@@ -15,10 +15,24 @@
         <header>
             <nav class="nav-wrapper transparent">
                 <div class="container">
-                    <a href="" class="brand-logo left">&lt;/George<span>Burton&gt;</span></a>
-                    <i class="fas fa-bars hide"></i>
-                    <ul class="hide-on-med-and-down">
-                        <li> <a href="">Home</a></li>
+                    <a href="" class="brand-logo left"><span id="leftspan">&lt;/George</span><span class="rightspan">Burton&gt;</span></a>
+
+
+                    <button class="menu-toggle" id="menu-toggle" aria-expanded="false"><span class="screen-reader-text">Menu</span>
+                        <svg class="icon icon-menu-toggle" aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100">
+                            <g class="svg-menu-toggle">
+                                <path class="line line-1" d="M5 13h90v14H5z"></path>
+                                <path class="line line-2" d="M5 43h90v14H5z"></path>
+                                <path class="line line-3" d="M5 73h90v14H5z"></path>
+                            </g>
+                        </svg>
+                </button>
+
+
+
+
+                    <ul class="hide-on-med-and-down" id="nav-ul">
+                        <li class="firstshow"> <a href="">Home</a></li>
                         <li> <a href="">About</a></li>
                         <li> <a href="">My Work</a></li>
                         <li class="contact"><a href="">Contact Me</a></li>

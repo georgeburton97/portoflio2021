@@ -1,5 +1,6 @@
 @import "config";
 @import "nav";
+@import "hamburger";
 @import "hero";
 @import "work";
 @import "aboutme";
@@ -30,7 +31,6 @@ body {
     // background-image: url(/images/geometry_@2X.png);
     background-repeat: repeat;
     position: absolute;
-    background-size: 600px;
     top: 0px;
     right: 0px;
     bottom: 0px;
@@ -51,4 +51,44 @@ body {
 body > div > section > div {
     margin-top: 0 !important;
     padding-top: 0 !important;
+}
+
+.show {
+    display: block;
+    width: 100%;
+    text-align: center;
+    // padding-top: 6px;
+    position: absolute;
+    top: 0;
+    right: -0;
+    z-index: 0;
+    // margin-top: 44px;
+    // padding: 0 0px;
+    background: black;
+    opacity: 0.9;
+
+    .firstshow {
+        padding-top: 140px;
+    }
+    li {
+        padding: 30px 0;
+        background: black;
+        margin-top: 30px;
+        border-bottom: #555 1px dotted;
+        border-bottom-width: 1px;
+
+        a {
+            color: #fff;
+        }
+    }
+
+    .contact {
+        border: none;
+        border-radius: 0;
+        padding-bottom: 70px;
+
+        a {
+            color: $primaryColor;
+        }
+    }
 }

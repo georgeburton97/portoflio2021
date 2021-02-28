@@ -6,6 +6,7 @@
     max-width: 1600px;
     padding: 20px 0;
     padding-top: 50px;
+    flex-wrap: wrap;
 }
 
 header {
@@ -33,8 +34,9 @@ header {
         font-size: 30px;
         color: black;
         font-weight: bold;
+        z-index: 100;
 
-        span {
+        .rightspan {
             color: $primaryColor;
         }
     }
@@ -50,4 +52,12 @@ header {
         font-weight: bold;
         color: $primaryColor;
     }
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.white-text {
+    color: #fff;
 }

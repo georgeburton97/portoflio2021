@@ -7,6 +7,7 @@
   max-width: 1600px;
   padding: 20px 0;
   padding-top: 50px;
+  flex-wrap: wrap;
 }
 
 header a {
@@ -29,8 +30,9 @@ header .brand-logo {
   font-size: 30px;
   color: black;
   font-weight: bold;
+  z-index: 100;
 }
-header .brand-logo span {
+header .brand-logo .rightspan {
   color: #2f80ed;
 }
 
@@ -43,6 +45,82 @@ header .brand-logo span {
 .contact a {
   font-weight: bold;
   color: #2f80ed;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.white-text {
+  color: #fff;
+}
+
+header {
+  /* Menu toggle styles. */
+  /* Animate menu icon (lines). */
+  /* Text meant only for screen readers. */
+}
+header button,
+header input[type=button] {
+  border: none;
+  border-radius: 0;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 1em 1.5em;
+  text-transform: uppercase;
+  transition: all 0.25s ease-in-out;
+}
+header .menu-toggle {
+  font-size: 0.875em;
+  padding: 1em;
+}
+header .menu-toggle:focus {
+  outline: none;
+}
+header .icon {
+  display: inline-block;
+  fill: currentColor;
+  height: 1em;
+  width: 1em;
+  vertical-align: middle;
+  position: relative;
+  /* Align more nicely with capital letters */
+  top: -0.0625em;
+}
+header .icon-menu-toggle {
+  width: 2em;
+  height: 2em;
+  top: 0;
+}
+header .svg-menu-toggle .line {
+  opacity: 1;
+  transform: rotate(0) translateY(0) translateX(0);
+  transform-origin: 1em 1em;
+  transition: transform 0.3s ease-in-out, opacity 0.2s ease-in-out;
+}
+header .svg-menu-toggle .line-1 {
+  transform-origin: 1em 2.5em;
+}
+header .svg-menu-toggle .line-3 {
+  transform-origin: 1em 4.5em;
+}
+header .menu-toggle.opened .svg-menu-toggle .line-1 {
+  transform: rotate(45deg) translateY(0) translateX(0);
+}
+header .menu-toggle.opened .svg-menu-toggle .line-2 {
+  opacity: 0;
+}
+header .menu-toggle.opened .svg-menu-toggle .line-3 {
+  transform: rotate(-45deg) translateY(0em) translateX(0em);
+}
+header .screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
 }
 
 .container-inner {
@@ -376,7 +454,6 @@ body {
   content: "";
   background-repeat: repeat;
   position: absolute;
-  background-size: 600px;
   top: 0px;
   right: 0px;
   bottom: 0px;
@@ -387,6 +464,11 @@ body {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) and (min-width: 300px) {
+  .menu-toggle {
+    display: block;
+    z-index: 3;
+  }
+
   .hide-on-med-and-down {
     display: none;
   }
@@ -417,7 +499,7 @@ body {
   }
 
   .container {
-    justify-content: center;
+    justify-content: space-around;
   }
 
   .main .flex .flex {
@@ -493,6 +575,11 @@ body {
 }
 /* IPAD */
 @media only screen and (min-width: 601px) and (max-width: 1200px) {
+  .menu-toggle {
+    display: block;
+    z-index: 3;
+  }
+
   .hero {
     height: 90vh;
   }
@@ -660,6 +747,39 @@ body > section.contact-section > div > div.contactbottom > div.contact-right > f
 body > div > section > div {
   margin-top: 0 !important;
   padding-top: 0 !important;
+}
+
+.show {
+  display: block;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  background: black;
+  opacity: 0.9;
+}
+.show .firstshow {
+  padding-top: 140px;
+}
+.show li {
+  padding: 30px 0;
+  background: black;
+  margin-top: 30px;
+  border-bottom: #555 1px dotted;
+  border-bottom-width: 1px;
+}
+.show li a {
+  color: #fff;
+}
+.show .contact {
+  border: none;
+  border-radius: 0;
+  padding-bottom: 70px;
+}
+.show .contact a {
+  color: #2f80ed;
 }
 
 /*# sourceMappingURL=/style.ff1c4cab.css.map */

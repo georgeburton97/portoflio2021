@@ -2,6 +2,11 @@
 @media only screen and (max-width: 600px) and (min-width: 300px) {
     // Nav and Hero
 
+    .menu-toggle {
+        display: block;
+        z-index: 3;
+    }
+
     .hide-on-med-and-down {
         display: none;
     }
@@ -34,7 +39,7 @@
     }
 
     .container {
-        justify-content: center;
+        justify-content: space-around;
     }
 
     .main {
@@ -142,6 +147,11 @@
 /* IPAD */
 @media only screen and (min-width: 601px) and (max-width: 1200px) {
     // Nav
+
+    .menu-toggle {
+        display: block;
+        z-index: 3;
+    }
 
     .hero {
         height: 90vh;
