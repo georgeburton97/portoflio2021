@@ -416,10 +416,6 @@ body {
     padding: 0 20px;
   }
 
-  .flex {
-    padding-top: 60px !important;
-  }
-
   .container {
     justify-content: center;
   }
@@ -653,6 +649,17 @@ body > section.contact-section > div > div.contactbottom > div.contact-right > f
   .underline {
     display: none;
   }
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+}
+
+body > div > section > div {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
 /*# sourceMappingURL=/style.ff1c4cab.css.map */

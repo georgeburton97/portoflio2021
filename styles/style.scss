@@ -40,3 +40,15 @@ body {
 }
 
 @import "media";
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+}
+
+body > div > section > div {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
