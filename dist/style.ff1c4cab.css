@@ -789,4 +789,8 @@ body > div > section > div {
   z-index: 1;
 }
 
+.right-img {
+  z-index: -1;
+}
+
 /*# sourceMappingURL=/style.ff1c4cab.css.map */
