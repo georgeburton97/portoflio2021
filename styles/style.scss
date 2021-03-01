@@ -26,19 +26,6 @@ body {
     width: 100%;
 }
 
-.hero:before {
-    content: "";
-    // background-image: url(/images/geometry_@2X.png);
-    background-repeat: repeat;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 1;
-    z-index: -1;
-}
-
 @import "media";
 
 .main {
@@ -94,5 +81,5 @@ body > div > section > div {
 }
 
 .left-text {
-    z-index: -2;
+    z-index: 1;
 }

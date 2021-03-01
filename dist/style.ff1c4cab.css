@@ -323,6 +323,10 @@ p {
   z-index: -1;
 }
 
+.tech-icons {
+  margin-top: 30px;
+}
+
 .contact-section hr {
   width: 100%;
   border-top: 2px solid #2f80ed;
@@ -450,23 +454,11 @@ body {
   width: 100%;
 }
 
-.hero:before {
-  content: "";
-  background-repeat: repeat;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 1;
-  z-index: -1;
-}
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) and (min-width: 300px) {
   .menu-toggle {
     display: block;
-    z-index: 3;
+    z-index: 1;
     margin-right: 20px;
   }
 
@@ -545,6 +537,11 @@ body {
 
   body > section.about-me > div > div > div.bottom > div > img {
     width: 70px;
+  }
+
+  .tech-icons {
+    padding-bottom: 40px;
+    margin-top: 0px;
   }
 
   .contactbottom {
@@ -650,6 +647,11 @@ body {
     max-width: 630px;
     padding: 0px 20px;
     padding-top: 70px;
+  }
+
+  .tech-icons {
+    padding-bottom: 40px;
+    margin-top: 25px;
   }
 
   .contactbottom {
@@ -784,7 +786,7 @@ body > div > section > div {
 }
 
 .left-text {
-  z-index: -2;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=/style.ff1c4cab.css.map */

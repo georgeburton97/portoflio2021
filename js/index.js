@@ -2,6 +2,7 @@
 var button = document.getElementById( 'menu-toggle' );
 const navUl = document.getElementById('nav-ul');
 const left = document.getElementById('leftspan')
+const leftbutton = document.querySelector('.left-text');
 
 // Click the button.
 button.onclick = function() {
@@ -10,14 +11,24 @@ button.onclick = function() {
   if ( -1 !== button.className.indexOf( 'opened' ) ) {
     button.className = button.className.replace( ' opened', '' );
     button.setAttribute( 'aria-expanded', 'false' );
-    navUl.classList.toggle('show')
-    left.classList.toggle('white-text')
+    navUl.classList.toggle('show');
+    left.classList.toggle('white-text');
+    
+
 
   } else {
      button.className += ' opened';
     button.setAttribute( 'aria-expanded', 'true' );
     navUl.classList.toggle('show')
     left.classList.toggle('white-text')
+   };
+
+  //  Fixes zindex issue with 'work' button
+
+   if (button.classList.contains('opened') === false){
+    leftbutton.setAttribute("style", "z-index: 1")
+   } else{
+    leftbutton.setAttribute("style", "z-index: -1")
    }
     
  };
@@ -49,6 +60,6 @@ gsap.from('.right-img', {opacity: 0, duration: 1, x: 200, ease: 'Power2.easeInOu
 
 gsap.from('.tech-icons', {
     scrollTrigger: '.tech-icons',
-    opacity: 0, duration: 1.5, ease: 'Power2.easeInOut'
+    opacity: 0, duration: 2, ease: 'Power2.easeInOut'
 });
 

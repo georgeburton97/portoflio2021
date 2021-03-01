@@ -4,7 +4,7 @@
 
     .menu-toggle {
         display: block;
-        z-index: 3;
+        z-index: 1;
         margin-right: 20px;
     }
 
@@ -97,6 +97,11 @@
 
     body > section.about-me > div > div > div.bottom > div > img {
         width: 70px;
+    }
+
+    .tech-icons {
+        padding-bottom: 40px;
+        margin-top: 0px;
     }
 
     // Contact
@@ -233,6 +238,11 @@
         padding: 0px 20px;
 
         padding-top: 70px;
+    }
+
+    .tech-icons {
+        padding-bottom: 40px;
+        margin-top: 25px;
     }
 
     // Contact
