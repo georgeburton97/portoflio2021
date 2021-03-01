@@ -13,6 +13,14 @@
 header a {
   text-decoration: none;
 }
+header .underline-link {
+  border-bottom: 3px transparent solid;
+  padding-bottom: 0.5rem;
+  transition: border-color 0.5s;
+}
+header .underline-link:hover {
+  border-color: #2f80ed;
+}
 header ul {
   list-style: none;
   display: flex;
@@ -202,6 +210,42 @@ i.fas:nth-child(2) {
 
 .left-work {
   width: 564px;
+}
+
+.project1 {
+  height: 320px;
+  width: 450px;
+  background: url(/project1.a54bbb8b.png) no-repeat center center/cover;
+  border-radius: 30px;
+  background-size: 100%;
+  transition: background-size 0.3s ease-in;
+}
+.project1:hover {
+  background-size: 120%;
+}
+
+.project2 {
+  height: 320px;
+  width: 450px;
+  background: url(/email-pattern.707e0244.png) no-repeat center center/cover;
+  border-radius: 30px;
+  background-size: 100%;
+  transition: background-size 0.3s ease-in;
+}
+.project2:hover {
+  background-size: 120%;
+}
+
+.project3 {
+  height: 320px;
+  width: 450px;
+  background: url(/email-pattern.707e0244.png) no-repeat center center/cover;
+  border-radius: 30px;
+  background-size: 100%;
+  transition: background-size 0.3s ease-in;
+}
+.project3:hover {
+  background-size: 120%;
 }
 
 .flexwork {
@@ -527,6 +571,21 @@ body {
     width: 300px;
   }
 
+  .project1 {
+    height: 200px;
+    width: 300px;
+  }
+
+  .project2 {
+    height: 200px;
+    width: 300px;
+  }
+
+  .project3 {
+    height: 200px;
+    width: 300px;
+  }
+
   body > section.about-me > div > div > div.bottom > h3 {
     font-size: 24px;
   }
@@ -635,10 +694,22 @@ body {
     max-width: 630px;
     margin: 0 auto;
   }
-  .flexwork img {
+  .flexwork .left-work {
     width: 600px;
   }
-  .flexwork .left-work {
+
+  .project1 {
+    height: 400px;
+    width: 600px;
+  }
+
+  .project2 {
+    height: 400px;
+    width: 600px;
+  }
+
+  .project3 {
+    height: 400px;
     width: 600px;
   }
 
