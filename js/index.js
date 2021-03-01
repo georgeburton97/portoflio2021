@@ -36,3 +36,19 @@ button.onclick = function() {
       
     }
  });
+
+
+
+//  Animation
+
+
+
+gsap.from('.left-text', {opacity: 0, duration: 1, x: -200, ease: 'Power2.easeInOut'});
+gsap.from('.right-img', {opacity: 0, duration: 1, x: 200, ease: 'Power2.easeInOut'});
+
+
+gsap.from('.tech-icons', {
+    scrollTrigger: '.tech-icons',
+    opacity: 0, duration: 1.5, ease: 'Power2.easeInOut'
+});
+

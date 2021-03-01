@@ -783,4 +783,8 @@ body > div > section > div {
   color: #2f80ed;
 }
 
+.left-text {
+  z-index: -2;
+}
+
 /*# sourceMappingURL=/style.ff1c4cab.css.map */
