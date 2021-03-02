@@ -61,6 +61,11 @@ header {
     a {
         font-weight: bold;
         color: $primaryColor;
+        transition: color 0.5s;
+
+        &:hover {
+            color: $secondaryColor;
+        }
     }
 }
 

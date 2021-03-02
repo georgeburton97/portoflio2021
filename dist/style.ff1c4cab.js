@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"E:\\Code2021\\portfolio2021\\images\\underline.svg":[["underline.3b60bd12.svg","images/underline.svg"],"images/underline.svg"],"E:\\Code2021\\portfolio2021\\images\\project1.png":[["project1.a54bbb8b.png","images/project1.png"],"images/project1.png"],"E:\\Code2021\\portfolio2021\\images\\email-pattern.png":[["email-pattern.707e0244.png","images/email-pattern.png"],"images/email-pattern.png"],"_css_loader":"C:/Users/georg/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"C:/Users/georg/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"E:\\Code2021\\portfolio2021\\images\\underline.svg":[["underline.3b60bd12.svg","images/underline.svg"],"images/underline.svg"],"E:\\Code2021\\portfolio2021\\images\\baseapparelmockup1.png":[["baseapparelmockup1.98bf482c.png","images/baseapparelmockup1.png"],"images/baseapparelmockup1.png"],"E:\\Code2021\\portfolio2021\\images\\email-pattern.png":[["email-pattern.707e0244.png","images/email-pattern.png"],"images/email-pattern.png"],"_css_loader":"C:/Users/georg/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"C:/Users/georg/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60443" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62836" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

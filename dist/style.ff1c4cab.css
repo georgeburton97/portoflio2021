@@ -53,6 +53,10 @@ header .brand-logo .rightspan {
 .contact a {
   font-weight: bold;
   color: #2f80ed;
+  transition: color 0.5s;
+}
+.contact a:hover {
+  color: #ed4c2f;
 }
 
 .menu-toggle {
@@ -209,13 +213,13 @@ i.fas:nth-child(2) {
 }
 
 .left-work {
-  width: 564px;
+  width: 650px;
 }
 
 .project1 {
   height: 320px;
   width: 450px;
-  background: url(/project1.a54bbb8b.png) no-repeat center center/cover;
+  background: url(/baseapparelmockup1.98bf482c.png) no-repeat center center/cover;
   border-radius: 30px;
   background-size: 100%;
   transition: background-size 0.3s ease-in;
@@ -227,7 +231,7 @@ i.fas:nth-child(2) {
 .project2 {
   height: 320px;
   width: 450px;
-  background: url(/email-pattern.707e0244.png) no-repeat center center/cover;
+  background: url(/baseapparelmockup1.98bf482c.png) no-repeat center center/cover;
   border-radius: 30px;
   background-size: 100%;
   transition: background-size 0.3s ease-in;
@@ -239,7 +243,7 @@ i.fas:nth-child(2) {
 .project3 {
   height: 320px;
   width: 450px;
-  background: url(/email-pattern.707e0244.png) no-repeat center center/cover;
+  background: url(/baseapparelmockup1.98bf482c.png) no-repeat center center/cover;
   border-radius: 30px;
   background-size: 100%;
   transition: background-size 0.3s ease-in;
@@ -250,8 +254,10 @@ i.fas:nth-child(2) {
 
 .flexwork {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 60px 0;
+  max-width: 1300px;
+  margin: auto;
 }
 
 .work-buttons {
