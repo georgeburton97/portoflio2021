@@ -23,7 +23,7 @@ button.onclick = function() {
     left.classList.toggle('white-text')
    };
 
-  //  Fixes zindex issue with 'work' button
+  //  Fixes zindex issue on 'work' button
 
    if (button.classList.contains('opened') === false){
     leftbutton.setAttribute("style", "z-index: 1")

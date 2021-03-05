@@ -138,7 +138,7 @@ button.onclick = function () {
     left.classList.toggle('white-text');
   }
 
-  ; //  Fixes zindex issue with 'work' button
+  ; //  Fixes zindex issue on 'work' button
 
   if (button.classList.contains('opened') === false) {
     leftbutton.setAttribute("style", "z-index: 1");
@@ -202,7 +202,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62836" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52101" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
