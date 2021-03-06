@@ -160,18 +160,20 @@ gsap.from('.left-text', {
   opacity: 0,
   duration: 1,
   x: -200,
-  ease: 'Power2.easeInOut'
+  ease: 'Power2.easeInOut',
+  delay: 0.3
 });
 gsap.from('.right-img', {
   opacity: 0,
   duration: 1,
   x: 200,
-  ease: 'Power2.easeInOut'
+  ease: 'Power2.easeInOut',
+  delay: 0.3
 });
 gsap.from('.tech-icons', {
   scrollTrigger: '.tech-icons',
   opacity: 0,
-  duration: 2,
+  duration: 1.2,
   ease: 'Power2.easeInOut'
 });
 },{}],"C:/Users/georg/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
@@ -202,7 +204,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52101" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49206" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

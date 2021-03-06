@@ -22,8 +22,7 @@
 .project1 {
     height: 320px;
     width: 450px;
-    background: url(/images/baseapparelmockup1.png) no-repeat center
-        center/cover;
+    background: url(/images/pixabaymockup.png) no-repeat center center/cover;
     border-radius: 30px;
     background-size: 100%;
     transition: background-size 0.3s ease-in;
@@ -36,7 +35,7 @@
 .project2 {
     height: 320px;
     width: 450px;
-    background: url(/images/pixabaymockup.png) no-repeat center center/cover;
+    background: url(/images/trailerplayer.png) no-repeat center center/cover;
     border-radius: 30px;
     background-size: 100%;
     transition: background-size 0.3s ease-in;
@@ -48,7 +47,8 @@
 .project3 {
     height: 320px;
     width: 450px;
-    background: url(/images/trailerplayer.png) no-repeat center center/cover;
+    background: url(/images/baseapparelmockup1.png) no-repeat center
+        center/cover;
     border-radius: 30px;
     background-size: 100%;
     transition: background-size 0.3s ease-in;
