@@ -4,6 +4,15 @@ const navUl = document.getElementById('nav-ul');
 const left = document.getElementById('leftspan')
 const leftbutton = document.querySelector('.left-text');
 
+
+// Clear form after submission
+window.onload = function(){
+  document.getElementById("name").value = "";
+  document.getElementById("email").value = "";
+  document.getElementById("message").value = "";
+ }
+
+
 // Click the button.
 button.onclick = function() {
 	

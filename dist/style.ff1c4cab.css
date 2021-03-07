@@ -489,6 +489,9 @@ p {
   font-size: 15px;
   cursor: pointer;
 }
+.btn-submit:hover {
+  opacity: 0.9;
+}
 
 .contact-right,
 .contact-left {
@@ -870,7 +873,6 @@ body > div > section > div {
   right: 0;
   z-index: 0;
   background: black;
-  opacity: 0.9;
 }
 .show .firstshow {
   padding-top: 140px;
